@@ -1,0 +1,102 @@
+using System;
+ 
+// typ pola (kó³ko — circle lub krzy¿yk (cross))
+public enum FieldType {ftCircle = 1, ftCross = 10};
+ 
+// struktura opisuj¹ca gracza
+public struct Player
+{
+    // nazwa gracza
+    public string Name;
+    // iloœæ zwyciêstw
+    public int Winnings;
+    // reprezentuj¹cy go symbol
+    public FieldType Type;
+}
+ 
+class GomokuEngine
+{
+    // tablica 3x3 reprezentuj¹ca pole gry
+    private FieldType[,] FField = new FieldType[3, 3];
+    // zmienna oznaczaj¹ca zwyciêstwo któregoœ gracza (true)
+    private bool FWinner;
+    // ID gracza, który teraz wykonuje ruch
+    private int FActive;
+    // tablica graczy (tylko dwóch graczy)
+    private Player[] FPlayer = new Player[2];
+ 
+    /* METODY PRYWATNE */
+    private string GetPlayer1()
+    {
+        return FPlayer[0].Name;
+    }
+ 
+    private void SetPlayer1(string Name)
+    {
+        FPlayer[0].Name = Name;
+    }
+ 
+    private string GetPlayer2()
+    {
+        return FPlayer[1].Name;
+    }
+ 
+    private void SetPlayer2(string Name)
+    {
+        FPlayer[1].Name = Name;
+    }
+ 
+    private Player GetActive()
+    {
+        return FPlayer[this.FActive];
+    }
+ 
+    // w³aœciwoœæ Winner
+    public bool Winner
+    {
+        get
+        {
+            return FWinner;
+        }
+    }
+    // w³aœciwoœæ zwraca aktywnego gracza
+    public Player Active
+    {
+        get
+        {
+            return GetActive();
+        }
+    }
+    // zwraca informacje o graczu nr 1
+    public string Player1
+    {
+        get
+        {
+            return GetPlayer1();
+        }
+        set
+        {
+            SetPlayer1(value);
+        }
+    }
+    // w³aœciwoœæ zwraca informacje o graczu nr 2
+    public string Player2
+    {
+        get
+        {
+            return GetPlayer2();
+        }
+        set
+        {
+            SetPlayer2(value);
+        }
+    }
+    // w³aœciwoœæ tylko do odczytu, zwraca informacje o polu bitwy ;-)
+    public FieldType[,] Field
+    {
+        get
+        {
+            return FField;
+        }
+    }
+}

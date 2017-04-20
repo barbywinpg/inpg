@@ -1,0 +1,115 @@
+
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Automatyka i Robotyka - Stacjonarne - Studia I stopnia - Lato 2016/2017/S2 - Plan zajêæ EAIiIB</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="/img/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
+<link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,700,400italic,700italic&amp;subset=latin,latin-ext" media="screen" rel="stylesheet" type="text/css">
+<link href="/asset/timetable/tt.min.css" media="screen" rel="stylesheet" type="text/css">
+    <!--[if lt IE 9]><script type="text/javascript" src="/asset/respond/respond.min.js"></script><![endif]-->
+<!--[if lt IE 9]><script type="text/javascript" src="/asset/html5shiv/html5shiv.min.js"></script><![endif]-->
+    </head>
+<body data-base="/"><nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                    aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Poka¿ nawigacjê</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Wydzia³ EAIiIB AGH - plan zajêæ</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+                        <div class="navbar-form navbar-right">
+                <label class="control-label">Kierunek: </label><select id="view-select" class="form-control input-normal" data-view-type="timetable"><option>-- wybierz plan zajêæ --</option><option value="204">Automatyka i Robotyka - Informatyka w sterowaniu i zarz¹dzaniu - Stacjonarne - Studia II stopnia - Lato 2016/2017/S1</option><option value="211">Automatyka i Robotyka - Informatyka w sterowaniu i zarz¹dzaniu - Stacjonarne - Studia II stopnia - Lato 2016/2017/S3</option><option value="205">Automatyka i Robotyka - Komputerowe systemy sterowania (Neurocybernetyka) - Stacjonarne - Studia II stopnia - Lato 2016/2017/S1</option><option value="212">Automatyka i Robotyka - Komputerowe systemy sterowania (Neurocybernetyka) - Stacjonarne - Studia II stopnia - Lato 2016/2017/S3</option><option value="209">Automatyka i Robotyka - Komputerowe systemy sterowania (Robotyka) - Stacjonarne - Studia II stopnia - Lato 2016/2017/S1</option><option value="214">Automatyka i Robotyka - Komputerowe systemy sterowania (Robotyka) - Stacjonarne - Studia II stopnia - Lato 2016/2017/S3</option><option value="210">Automatyka i Robotyka - Komputerowe systemy sterowania (ZSSiM) - Stacjonarne - Studia II stopnia - Lato 2016/2017/S1</option><option value="215">Automatyka i Robotyka - Komputerowe systemy sterowania (ZSSiM) - Stacjonarne - Studia II stopnia - Lato 2016/2017/S3</option><option value="176" selected="selected">Automatyka i Robotyka - Stacjonarne - Studia I stopnia - Lato 2016/2017/S2</option><option value="177">Automatyka i Robotyka - Stacjonarne - Studia I stopnia - Lato 2016/2017/S4</option><option value="178">Automatyka i Robotyka - Stacjonarne - Studia I stopnia - Lato 2016/2017/S6</option><option value="233">Elektrotechnika - Automatyka i Metrologia - Niestacjonarne - Studia II stopnia - Lato 2016/2017/S2</option><option value="235">Elektrotechnika - Automatyka i Metrologia - Niestacjonarne - Studia II stopnia - Lato 2016/2017/S4</option><option value="171">Elektrotechnika - Automatyka przemys³owa i automatyka budynków - Stacjonarne - Studia II stopnia - Lato 2016/2017/S1</option><option value="199">Elektrotechnika - Automatyka przemys³owa i automatyka budynków - Stacjonarne - Studia II stopnia - Lato 2016/2017/S3</option><option value="245">Elektrotechnika - Elektroenergetyka - Niestacjonarne - Studia I stopnia - Lato 2016/2017/S8</option><option value="236">Elektrotechnika - Elektroenergetyka - Niestacjonarne - Studia II stopnia - Lato 2016/2017/S2</option><option value="237">Elektrotechnika - Elektroenergetyka - Niestacjonarne - Studia II stopnia - Lato 2016/2017/S4</option><option value="172">Elektrotechnika - Elektroenergetyka - Stacjonarne - Studia II stopnia - Lato 2016/2017/S1</option><option value="200">Elektrotechnika - Elektroenergetyka - Stacjonarne - Studia II stopnia - Lato 2016/2017/S3</option><option value="173">Elektrotechnika - Energoelektronika i napêd elektryczny - Stacjonarne - Studia II stopnia - Lato 2016/2017/S1</option><option value="201">Elektrotechnika - Energoelektronika i napêd elektryczny - Stacjonarne - Studia II stopnia - Lato 2016/2017/S3</option><option value="170">Elektrotechnika - In¿ynieria elektryczna w pojazdach samochodowych - Stacjonarne - Studia II stopnia - Lato 2016/2017/S1</option><option value="196">Elektrotechnika - Niestacjonarne - Studia I stopnia - Lato 2016/2017/S2</option><option value="197">Elektrotechnika - Niestacjonarne - Studia I stopnia - Lato 2016/2017/S4</option><option value="198">Elektrotechnika - Niestacjonarne - Studia I stopnia - Lato 2016/2017/S6</option><option value="174">Elektrotechnika - Pomiary technologiczne i biomedyczne - Stacjonarne - Studia II stopnia - Lato 2016/2017/S1</option><option value="202">Elektrotechnika - Pomiary technologiczne i biomedyczne - Stacjonarne - Studia II stopnia - Lato 2016/2017/S3</option><option value="175">Elektrotechnika - Smart Grids Technology Platform - Stacjonarne - Studia II stopnia - Lato 2016/2017/S1</option><option value="203">Elektrotechnika - Smart Grids Technology Platform - Stacjonarne - Studia II stopnia - Lato 2016/2017/S3</option><option value="165">Elektrotechnika - Stacjonarne - Studia I stopnia - Lato 2016/2017/S2</option><option value="166">Elektrotechnika - Stacjonarne - Studia I stopnia - Lato 2016/2017/S4</option><option value="167">Elektrotechnika - Stacjonarne - Studia I stopnia - Blok obieralny A - Lato 2016/2017/S6</option><option value="168">Elektrotechnika - Stacjonarne - Studia I stopnia - Blok obieralny B - Lato 2016/2017/S6</option><option value="169">Elektrotechnika - Stacjonarne - Studia I stopnia - Blok obieralny C - Lato 2016/2017/S6</option><option value="220">Informatyka - Grafika komputerowa - Stacjonarne - Studia II stopnia - Lato 2016/2017/S1</option><option value="222">Informatyka - Grafika komputerowa - Stacjonarne - Studia II stopnia - Lato 2016/2017/S3</option><option value="218">Informatyka - In¿ynieria oprogramowania i systemów - Stacjonarne - Studia II stopnia - Lato 2016/2017/S1</option><option value="221">Informatyka - In¿ynieria oprogramowania i systemów - Stacjonarne - Studia II stopnia - Lato 2016/2017/S3</option><option value="241">Informatyka - Modelowanie systemów i analiza danych - Stacjonarne - Studia II stopnia - Lato 2016/2017/S1</option><option value="188">Informatyka - Stacjonarne - Studia I stopnia - Lato 2016/2017/S2</option><option value="189">Informatyka - Stacjonarne - Studia I stopnia - Lato 2016/2017/S4</option><option value="190">Informatyka - Stacjonarne - Studia I stopnia - Lato 2016/2017/S6</option><option value="216">Informatyka - Systemy informatyczne w produkcji i administracji - Stacjonarne - Studia II stopnia - Lato 2016/2017/S1</option><option value="223">Informatyka - Systemy informatyczne w produkcji i administracji - Stacjonarne - Studia II stopnia - Lato 2016/2017/S3</option><option value="219">Informatyka - Systemy inteligentne - Stacjonarne - Studia II stopnia - Lato 2016/2017/S1</option><option value="224">Informatyka - Systemy inteligentne - Stacjonarne - Studia II stopnia - Lato 2016/2017/S3</option><option value="226">In¿ynieria Biomedyczna - Biomechanika i robotyka - Stacjonarne - Studia II stopnia - Lato 2016/2017/S1</option><option value="228">In¿ynieria Biomedyczna - Biomechanika i robotyka - Stacjonarne - Studia II stopnia - Lato 2016/2017/S3</option><option value="229">In¿ynieria Biomedyczna - Bionanotechnologie - Stacjonarne - Studia II stopnia - Lato 2016/2017/S1</option><option value="232">In¿ynieria Biomedyczna - Bionanotechnologie - Stacjonarne - Studia II stopnia - Lato 2016/2017/S3</option><option value="234">In¿ynieria Biomedyczna - Informatyka i elektronika medyczna - Stacjonarne - Studia II stopnia - Lato 2016/2017/S1</option><option value="239">In¿ynieria Biomedyczna - Informatyka i elektronika medyczna - Stacjonarne - Studia II stopnia - Lato 2016/2017/S3</option><option value="238">In¿ynieria Biomedyczna - In¿ynieria biomateria³ów - Stacjonarne - Studia II stopnia - Lato 2016/2017/S1</option><option value="240">In¿ynieria Biomedyczna - In¿ynieria biomateria³ów - Stacjonarne - Studia II stopnia - Lato 2016/2017/S3</option><option value="225">In¿ynieria Biomedyczna - Stacjonarne - Studia I stopnia - Lato 2016/2017/S2</option><option value="191">In¿ynieria Biomedyczna - Stacjonarne - Studia I stopnia - Lato 2016/2017/S4</option><option value="192">In¿ynieria Biomedyczna - Stacjonarne - Studia I stopnia - Lato 2016/2017/S6</option><option value="193">Mikroelektronika w technice i medycynie - Stacjonarne - Studia I stopnia - Lato 2016/2017/S2</option><option value="194">Mikroelektronika w technice i medycynie - Stacjonarne - Studia I stopnia - Lato 2016/2017/S4</option><option value="195">Mikroelektronika w technice i medycynie - Stacjonarne - Studia I stopnia - Lato 2016/2017/S6</option></select>
+                                    <div class="btn-group">
+                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="icon-options"></i> <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="#" class="timetable-print"
+                                   data-href="/view/timetable/176/print">
+                                    <i class="icon-print"></i> Plan na tydzieñ
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="timetable-print" data-summarize="1"
+                                   data-href="/view/timetable/176/print">
+                                    <i class="icon-print"></i> Plan ogólny
+                                </a>
+                            </li>
+                            <li role="separator" class="divider"></li>
+                                                                                                                                                                                                                                                                                                                                        </ul>
+                    </div>
+                                                            </div>
+        </div>
+    </div>
+</nav><div class="container-fluid">
+    <div class="row">
+        <div class="content-wrp col-md-12">
+            <div class="content row">
+                <h1 class="page-header">
+    Plan zajêæ
+            <small> - ostatnia aktualizacja: 2017/03/09 09:36</small>
+    </h1>
+
+<div id="fc"
+     data-mode="S"
+     data-events="/view/timetable/176/events"
+     data-groups="0;1;1.1;1.2;2;2.1;2.2;3;3.1;3.2;4;4.1;4.2;5;5.1"
+     data-default-date="2017-04-24"
+     data-management-entity-edit="0"
+     data-timetable-event-recurring-remove="0"
+     data-timetable-event-recurring-move="0"
+     data-timetable-event-recurring-edit="0">
+</div>
+<div class="modal fade redirect-modal" id="confirm-timetable-remove" role="dialog" aria-labelledby="confirm-timetable-remove-label" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="confirm-timetable-remove-label">PotwierdŸ usuniêcie</h4>
+            </div>
+            <div class="modal-body">
+                Czy na pewno chcesz usun¹æ wybrany plan zajêæ? Wycofanie tej akcji nie bêdzie mo¿liwe!            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Anuluj</button>
+                <button type="button" class="btn btn-primary confirm">Usuñ</button>
+            </div>
+        </div>
+        <div class="modal-content progress-toggle">
+            <div class="modal-header">
+                <h4 class="modal-title">Wczytywanie...</h4>
+            </div>
+            <div class="modal-body">
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>            </div>
+        </div>
+    </div>
+</div>
+<!-- global modal placeholder -->
+<div class="modal fade" id="actionModal" role="dialog" aria-labelledby="actionModalLabel" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="actionModalLabel">Wczytywanie...</h4>
+            </div>
+            <div class="modal-body">
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="/asset/timetable/tt.min.js"></script></body>
+</html>
